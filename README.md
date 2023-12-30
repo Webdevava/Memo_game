@@ -1,8 +1,30 @@
-# React + Vite
+# Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Memory Game repository! This is a simple React-based memory game where the objective is to find all matching pairs of cards. Challenge your memory and have fun!
 
-Currently, two official plugins are available:
+## How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Visit the live game:** [Memory Game](https://mymemogame.vercel.app/)
+
+2. **Click on the cards to flip them and find matching pairs.**
+
+3. **Keep track of your clicks and found pairs in the stats section.**
+
+4. **Once you find all pairs, you win! You can replay the game by clicking the "REPLAY" button.**
+
+## Game Components
+
+- **`App.js`:** The main React component that defines the game logic, state, and rendering.
+  
+- **`Images.js`:** Module containing the images used for the cards.
+
+## Dependencies
+
+- React
+- Lodash (for shuffling the cards)
+
+## Development
+
+Feel free to contribute to the development of this memory game. You can make improvements, fix bugs, or add new features. Simply fork the repository, make your changes, and create a pull request.
+
+Enjoy playing the Memory Game! If you have any issues or suggestions, feel free to [open an issue](https://github.com/Webdevava/Memo_game/issues).
